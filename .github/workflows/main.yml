@@ -4,7 +4,7 @@ name: Java CI with Maven
 on:
   # push:
   schedule:
-  - cron: '27/25 17 * * *'
+  - cron: '30/30 23,6,13 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
